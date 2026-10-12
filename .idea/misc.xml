@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/komka/AndroidStudioProjects/EMS/app/src/main/res/drawable/cards.xml" value="0.19282051282051282" />
+        <entry key="..\:/Users/komka/AndroidStudioProjects/EMS/app/src/main/res/drawable/circlebutton.xml" value="0.19282051282051282" />
+        <entry key="..\:/Users/komka/AndroidStudioProjects/EMS/app/src/main/res/drawable/custom_main_button.xml" value="0.19282051282051282" />
+        <entry key="..\:/Users/komka/AndroidStudioProjects/EMS/app/src/main/res/drawable/layoutround.xml" value="0.19583333333333333" />
+        <entry key="..\:/Users/komka/AndroidStudioProjects/EMS/app/src/main/res/drawable/round.xml" value="0.19583333333333333" />
+        <entry key="..\:/Users/komka/AndroidStudioProjects/EMS/app/src/main/res/layout/activity_emspanel.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/komka/AndroidStudioProjects/EMS/app/src/main/res/layout/activity_main.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/komka/AndroidStudioProjects/EMS/app/src/main/res/layout/activity_medicines.xml" value="0.1796875" />
+        <entry key="..\:/Users/komka/AndroidStudioProjects/EMS/app/src/main/res/layout/activity_medicines_view.xml" value="0.1796875" />
+        <entry key="..\:/Users/komka/AndroidStudioProjects/EMS/app/src/main/res/layout/activity_registration.xml" value="0.1796875" />
+        <entry key="..\:/Users/komka/AndroidStudioProjects/EMS/app/src/main/res/layout/activity_reports.xml" value="0.1796875" />
+        <entry key="..\:/Users/komka/AndroidStudioProjects/EMS/app/src/main/res/layout/activity_reports_view.xml" value="0.1796875" />
+        <entry key="..\:/Users/komka/AndroidStudioProjects/EMS/app/src/main/res/layout/activity_tests.xml" value="0.1796875" />
+        <entry key="..\:/Users/komka/AndroidStudioProjects/EMS/app/src/main/res/layout/activity_tests_view.xml" value="0.1796875" />
+        <entry key="..\:/Users/komka/AndroidStudioProjects/EMS/app/src/main/res/layout/medicinesrecycler.xml" value="0.1796875" />
+        <entry key="..\:/Users/komka/AndroidStudioProjects/EMS/app/src/main/res/layout/reportsrecycler.xml" value="0.1796875" />
+        <entry key="..\:/Users/komka/AndroidStudioProjects/EMS/app/src/main/res/layout/testsrecycler.xml" value="0.1" />
+        <entry key="..\:/Users/komka/AndroidStudioProjects/EMS/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1" />
+      </map>
+    </option>
+  </component>
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="jbr-11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

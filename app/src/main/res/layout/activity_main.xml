@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFF"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/txttitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:gravity="center"
+                android:fontFamily="sans-serif-medium"
+                android:text="Epidemic Management System"
+                android:textAllCaps="true"
+                android:textColor="#7B2EBF"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.067" />
+
+            <com.airbnb.lottie.LottieAnimationView
+                android:id="@+id/lottieAnimationView"
+                android:layout_width="180dp"
+                android:layout_height="100dp"
+                android:layout_gravity="right"
+                android:scaleType="centerCrop"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.195"
+                app:lottie_autoPlay="true"
+                app:lottie_fileName="pmvv.json"
+                app:lottie_loop="true" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layoutinput2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/layoutround"
+        android:padding="20dp"
+        android:elevation="16dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="220dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="false">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="WELCOME"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:gravity="center"/>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/textInputLayout"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp">
+
+            <EditText
+                android:id="@+id/ed1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Username"
+                android:textSize="20dp"
+                android:inputType="textPersonName"
+                android:paddingLeft="20dp"
+                android:paddingRight="10dp"
+                android:imeOptions="actionNext"
+                android:drawableRight="@drawable/ic_person"
+                android:textColor="#7B2EBF" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/textInputLayout2"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:endIconMode="password_toggle"
+            android:layout_marginTop="10dp">
+
+            <EditText
+                android:id="@+id/ed2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Password"
+                android:textSize="20dp"
+                android:inputType="textPersonName"
+                android:paddingLeft="20dp"
+                android:paddingRight="10dp"
+                android:imeOptions="actionNext"
+                android:textColor="#7B2EBF" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <android.widget.Button
+            android:id="@+id/btnlogin"
+            android:layout_width="150dp"
+            android:layout_height="45dp"
+            android:layout_gravity="center"
+            android:background="@drawable/custom_main_button"
+            android:textColor="#7B2EBF"
+            android:text="Login"
+            android:textAllCaps="true"
+            android:elevation="16dp"
+            android:layout_margin="20dp"
+            android:textSize="20dp"/>
+
+        <android.widget.Button
+            android:layout_width="250dp"
+            android:layout_height="45dp"
+            android:onClick="reg"
+            android:background="@drawable/custom_main_button"
+            android:layout_gravity="center"
+            android:text="New user?  Register here"
+            android:textAllCaps="false"
+            android:elevation="16dp"
+            android:layout_margin="-10dp"
+            android:textColor="#7B2EBF"
+            android:textSize="15dp"/>
+
+    </LinearLayout>
+</RelativeLayout>

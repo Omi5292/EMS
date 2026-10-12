@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F1ECF8"
+    tools:context=".Registration">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/layoutround"
+        android:elevation="16dp"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="REGISTRATION"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/editText1"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/round"
+            android:drawableRight="@drawable/ic_person"
+            android:hint="User name"
+            android:inputType="textPersonName"
+            android:paddingLeft="20dp"
+            android:paddingRight="10dp" />
+
+        <EditText
+            android:id="@+id/editText2"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/round"
+            android:drawableRight="@drawable/local_phone"
+            android:hint="Mobile no"
+            android:inputType="phone"
+            android:paddingLeft="20dp"
+            android:paddingRight="10dp" />
+
+        <EditText
+            android:id="@+id/editText3"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/round"
+            android:drawableRight="@drawable/credit_card"
+            android:hint="Aadhar no"
+            android:inputType="phone"
+            android:paddingLeft="20dp"
+            android:paddingRight="10dp" />
+
+        <EditText
+            android:id="@+id/editText4"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/round"
+            android:drawableRight="@drawable/place"
+            android:hint="Place"
+            android:inputType="textPersonName"
+            android:paddingLeft="20dp"
+            android:paddingRight="10dp" />
+
+        <EditText
+            android:id="@+id/editText5"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/round"
+            android:drawableRight="@drawable/ic_age"
+            android:hint="Age"
+            android:inputType="phone"
+            android:paddingLeft="20dp"
+            android:paddingRight="10dp" />
+
+        <EditText
+            android:id="@+id/editText6"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/round"
+            android:drawableRight="@drawable/ic_password"
+            android:hint="Set Password"
+            android:paddingLeft="20dp"
+            android:paddingRight="10dp" />
+
+        <android.widget.Button
+            android:id="@+id/btnreg"
+            android:layout_width="150dp"
+            android:layout_height="45dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/custom_main_button"
+            android:text="Register"
+            android:textAllCaps="true"
+            android:textColor="#7B2EBF"
+            android:textSize="20dp" />
+
+        <android.widget.Button
+            android:layout_width="250dp"
+            android:layout_height="45dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/custom_main_button"
+            android:onClick="backtologin"
+            android:text="Back to Login"
+            android:textAllCaps="false"
+            android:textColor="#7B2EBF"
+            android:textSize="15dp" />
+
+    </LinearLayout>
+
+</RelativeLayout>
